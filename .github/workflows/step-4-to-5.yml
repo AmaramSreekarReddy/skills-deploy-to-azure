@@ -13,7 +13,6 @@ permissions:
 jobs:
   on_azure_environment_created:
     name: On Azure environment created
-    needs: get_current_step
     runs-on: ubuntu-latest
 
     steps:
